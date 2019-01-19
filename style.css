@@ -1,0 +1,190 @@
+body{
+  margin: 0;
+  font-family: sans-serif;
+  background-color: aqua;
+  display: grid;
+
+}
+.navbar{
+  position: relative;
+}
+.navbar-up{
+  background-color: black;
+  color:white;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+  height: 30px;
+}
+.navbar-down{
+  background-color: white;
+  margin-top: 30px;
+  color:grey;
+  width: 100%;
+  height: 50px;
+  position: fixed;
+  display: flex;
+  justify-content: flex-start;
+}
+.navbar-up p{
+  color: white;
+  margin-top: 0px;
+  text-decoration: none;
+}
+.navbar-up a{
+  color: grey;
+  text-decoration: none;
+}
+.navbar-up a:hover{
+  color: white;
+  text-decoration: none;
+}
+.navbar-up li,.navbar-down li{
+  list-style: none;
+  margin-left: 20px;
+  margin-top: 5px;
+}
+.navbar-down li{
+  margin-top: 20px;
+}
+.navbar-down a{
+  color: grey;
+  text-decoration: none;
+}
+.navbar-down a:hover{
+  color:black;
+}
+.content{
+  display: flex;
+  margin-top:40px;
+  margin-left: 10px;
+
+  justify-content: flex-start;
+}
+.tnw-left{
+  margin-top: 100px;
+  height: 390px;
+  width: 780px;
+  background-color: red;
+
+}
+.tnw-right{
+  margin-left: 20px;
+}
+.un{
+  margin-top: 100px;
+  height: 190px;
+  width: 530px;
+  background-color: yellow;
+}
+.deux{
+  margin-top: 10px;
+  height: 190px;
+  width: 530px;
+  background-color: blue;
+}
+.lastest,.lastest-down{
+
+  grid-column: repeat(4,1fr);
+  grid-row: auto;
+  padding: 0px;
+  margin-right: 100px;
+  margin-top: 20px;
+  margin-left: 100px;
+
+}
+.lastest h1,.futing h1,.lastest-down h1{
+  margin-top: 50px;
+  color:red;
+}
+.lastest h1:hover,.futing h1:hover,.lastest-down h1:hover{
+  color:black;
+}
+.carre1,.carre2,.carre3,.carre4,.carre5,.carre6,.carre7,.carre8,.carre9,.carre10,.carre11,.carre12{
+  background-color: black;
+  width: 250px;
+  height: 150px;
+  margin-left: 5px;
+  padding-left: 20px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+.carre13,.carre14,.carre15,.carre16,.carre17,.carre18,.carre19,.carre20{
+  background-color: black;
+  width: 250px;
+  height: 150px;
+  margin-left: 5px;
+  padding-left: 20px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: flex-start;
+}
+.carre-up,.carre-down,.carre-futing,.carre-final-1,.carre-final-2{
+  display: flex;
+  justify-content: flex-start;
+  margin-top: -70px;
+}
+.carre-down{
+  margin-top: -20px;
+}
+.futing h2,.futing a{
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 20px;
+  font-size: 15px;
+
+}
+.futing h2{
+  margin-top: -50px;
+  text-align: center;
+  margin-right: 50px;
+}
+.futing a{
+  text-decoration: none;
+  color: red;
+}
+.futing a:hover{
+  color: black;
+}
+.content-up{
+
+    display: flex;
+    justify-content: flex-start;
+}
+.content-middle{
+  margin-left: 90px;
+  display: flex;
+  justify-content: flex-start;
+}
+.content-down{
+  margin-left: 90px;
+  display: flex;
+  justify-content: flex-start;
+}
+.hard{
+    margin-left: 80px;
+}
+.hard h1,.app h1,.gear h1,.tech h1,.crea h1,.contri h1,.insi h1,.lauch h1,.distract h1{
+  margin-left: 20px;
+  color: red;
+}
+.hard h1:hover,.app h1:hover,.gear h1:hover,.tech h1:hover,.crea h1:hover,.contri h1:hover,.insi h1:hover,.lauch h1:hover,.distract h1:hover{
+  color: black;
+}
+.geometric{
+  width: 350px;
+  height: 400px;
+  background-color: black;
+  margin-left: 20px;
+}
+.footer{
+  margin-top: 50px;
+  background-color: red;
+  height: 200px;
+}
+.footer-down{
+  background-color: yellow;
+  height: 80px;
+}
